@@ -18,17 +18,14 @@ AvatarVt-x/
 │   ├── memory.h                # Memory virtualization structures
 │   ├── io.h                    # I/O virtualization definitions
 │   ├── vmcs.h                  # Intel VMCS definitions
-│   └── vmcb.h                  # AMD VMCB definitions
 ├── src/                        # Source code
 │   ├── main.c                  # Entry point for the hypervisor module
 │   ├── cpu/                    # CPU-specific virtualization logic
 │   │   ├── vmx.c               # Intel VT-x (VMX) initialization and handling
-│   │   ├── svm.c               # AMD-V (SVM) initialization and handling
 │   │   ├── features.c          # CPU feature detection
 │   │   └── cpu_common.c        # Shared CPU utilities
 │   ├── memory/                 # Memory virtualization
 │   │   ├── ept.c               # Extended Page Tables (Intel)
-│   │   ├── npt.c               # Nested Page Tables (AMD)
 │   │   └── mmu.c               # General memory management
 │   ├── io/                     # I/O emulation and virtualization
 │   │   ├── io_emulation.c      # General I/O emulation
