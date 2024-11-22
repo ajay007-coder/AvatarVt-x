@@ -1,0 +1,93 @@
+# Temporary files and backups
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Build directories
+/build/
+/bin/
+/obj/
+/out/
+
+# Compiled binaries
+*.o
+*.ko
+*.mod.c
+*.so
+*.a
+*.exe
+*.dll
+
+# Intermediate and debug files
+*.d
+*.map
+*.lst
+*.log
+*.elf
+*.iso
+*.img
+*.qcow2
+*.vhd
+
+# IDE-specific files
+.idea/
+.vscode/
+*.iml
+
+# Editor-specific files
+*.user
+*.workspace
+*.code-workspace
+
+
+# Git metadata
+*.patch
+*.diff
+
+
+
+# Logs and reports
+*.log
+*.tmp
+*.pid
+*.gz
+*.tar
+*.zip
+*.tgz
+*.bz2
+
+
+# Documentation outputs
+*.pdf
+*.docx
+*.pptx
+*.odt
+
+
+# Makefiles
+*.d
+
+# QEMU-generated files
+qemu-*.log
+qemu-*.pid
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+build.ninja
+rules.ninja
+
+# Autotools
+autom4te.cache/
+configure
+config.log
+config.status
+Makefile
+Makefile.in
+
+
+# Custom temporary files
+/tmp/
+
