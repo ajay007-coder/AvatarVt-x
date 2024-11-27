@@ -66,8 +66,6 @@ commit.msg
 *.odt
 
 
-# Makefiles
-*.d
 
 # QEMU-generated files
 qemu-*.log
@@ -85,7 +83,6 @@ autom4te.cache/
 configure
 config.log
 config.status
-Makefile
 Makefile.in
 
 
